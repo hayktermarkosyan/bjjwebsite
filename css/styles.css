@@ -1,0 +1,861 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.container-fluid {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid #menuItem {
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(26, 26, 26);
+}
+
+.container-fluid #menuItem:hover {
+    border-bottom: 2px solid rgb(16, 84, 247);
+    color: white;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+.img-fluid {
+    width: 100%;
+    margin: 0px;
+}
+
+.container-fluid.span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-fluid #menuBtn {
+    top: 35px;
+}
+
+.btn {
+    border: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 55px 536px 0 0;
+    font-size: 3rem;
+    line-height: 1.1;
+    padding: 0;
+    color: #ffffff !important;
+    word-wrap: break-word;
+    position: relative;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: start;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+}
+
+.dropMenu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    overflow: auto;
+    z-index: 2;
+    width: 100%;
+    min-width: 300px;
+    float: inline-start;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropMenu a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.dropMenu a:hover {
+    border-bottom: 4px solid rgb(16, 84, 247);
+    background-color: white;
+    color: black;
+}
+
+.openDropMenu {
+    display: block;
+}
+
+.trainersSection .container-fluid a {
+    text-decoration: none;
+    margin-left: 32%;
+    margin-right: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 20px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.trainersSection .container-fluid a:hover {
+    color: white;
+}
+
+.membershipSection {
+    display: flex;
+    background-image: url(images/membership.jpg);
+    background-position: 50% 50%;
+    color: #ffffff;
+    background-size: cover;
+    position: relative;
+    margin-top: 120px;
+}
+
+.membershipSection .container {
+    min-height: 768px;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.membershipSection .container-fluid {
+    width: 622px;
+    min-height: 500px;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 10px;
+    margin: 36px auto 0 0;
+    display: grid;
+    position: relative;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.membershipSection .container-fluid .col {
+    text-align: left;
+    display: flex;
+    position: relative;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.membershipSection .container h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 55px 336px 0 0;
+    font-size: 3rem;
+    line-height: 1.1;
+    color: #ffffff !important;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.membershipSection .container-fluid span {
+    color: white;
+    font-size: 100px;
+    height: 64px;
+    width: 64px;
+    margin: 0 20px;
+    margin-top: 80px;
+    border-radius: 50%;
+    display: block;
+    line-height: 0;
+    border-width: 0px;
+    position: relative;
+    text-align: left;
+}
+
+.membershipSection .container-fluid p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-shadow: 0 0 26px rgb(128 128 128);
+    margin: -64px 0 0 115px;
+    word-wrap: break-word;
+    position: relative;
+    padding: 0;
+    text-align: left;
+}
+
+.membershipSection .container .container-fluid a {
+    text-transform: uppercase;
+    background-image: none;
+    border-style: none;
+    margin: 80px auto 60px 0;
+    color: #111111 !important;
+    background-color: #ffffff !important;
+    border-width: 0;
+    position: relative;
+    display: table;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    align-self: flex-start;
+}
+
+.aboutUsSection {
+    min-height: 580px;
+    position: relative;
+    display: block;
+}
+
+.aboutUsSection .container {
+    margin: 0 auto 0 0;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: relative;
+    color: #111111;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.aboutUsSection .container .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+
+.aboutUsSection .container .row .col-4 {
+    min-height: 580px;
+    width: 449.656;
+    background-color: transparent !important;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+}
+
+.aboutUsSection .container .row .col-4 .wrapper {
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
+}
+
+.aboutUsSection .container .row .col-4 .wrapper img {
+    height: 389px;
+    object-position: 71.85% 50%;
+    background-position: 71.85% 50%;
+    width: 319px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutUsSection .container .row .col-7 {
+    background-color: black;
+    position: relative;
+    width: 652.016;
+}
+
+.aboutUsSection .container .row .col-7 .wrapper {
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 100%;
+    text-align: left;
+    color: #ffffff;
+}
+
+.aboutUsSection .container .row .col-7 .wrapper h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    padding: 0;
+    word-wrap: break-word;
+    flex-shrink: 0;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.aboutUsSection .container .row .col-7 .wrapper h2 {
+    margin-bottom: 0;
+    font-size: 3rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0;
+    word-wrap: break-word;
+    flex-shrink: 0;
+}
+
+.aboutUsSection .container .row .col-7 .wrapper p {
+    margin-bottom: 0;
+    margin-top: 20px;
+    word-wrap: break-word;
+    flex-shrink: 0;
+    padding: 0;
+    color: inherit;
+    text-align: left;
+}
+
+.aboutUsSection .container .row .col-7 .wrapper a {
+    border-color: #000000 !important;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    stroke: none;
+    color: #111111 !important;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.aboutUsSection .container .row .col-1 {
+    min-height: 580px;
+    background-color: transparent !important;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    max-height: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 247.312;
+}
+
+.aboutUsSection .container .row .col-1 .wrapper {
+    padding: 30px;
+    flex: 1;
+    max-width: 100%;
+}
+
+.aboutUsSection .container .row .col-1 .wrapper h2 {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 103px 0 0;
+    padding: 0;
+    color: inherit;
+}
+
+.whatPeopleSaySection {
+    background-image: url(images/whatPeopleSay.jpg);
+    background-position: 0% 45.56%;
+    background-size: 100%;
+    color: #111111;
+    text-align: center;
+    object-fit: cover;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.whatPeopleSaySection .wrapper {
+    min-height: 584px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 1140px;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.whatPeopleSaySection .wrapper h4 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 60px auto 0 0;
+    padding: 0;
+    color: #ffffff !important;
+    line-height: 1.2;
+    position: relative;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.whatPeopleSaySection .wrapper h2 {
+    pointer-events: initial;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: -90px 570px 0 0;
+    padding: 0;
+    color: #ffffff !important;
+    word-wrap: break-word;
+    position: relative;
+    flex-shrink: 0;
+    display: block;
+    width: 570px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.whatPeopleSaySection .wrapper h6 {
+    font-weight: 700;
+    margin: 20px auto 0 0;
+    padding: 0;
+    color: #ffffff !important;
+    word-wrap: break-word;
+    flex-shrink: 0;
+    display: table;
+    align-self: flex-start;
+    font-size: 1.125rem;
+    position: relative;
+    line-height: 1.2;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.whatPeopleSaySection .wrapper a {
+    pointer-events: initial;
+    border-width: 2px;
+    background-image: none;
+    border-style: solid;
+    font-weight: 700;
+    margin: 30px auto 60px 0;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    stroke: none;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 0 !important;
+    font-size: 1.2rem;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    align-self: flex-start;
+    outline-width: 0;
+}
+
+.motivationSection {
+    min-height: 702px;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    color: #111111;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.motivationSection .container {
+    width: 576px;
+    min-height: 539px;
+    height: auto;
+    margin: 100px auto 60px calc(((100% - 1140px) / 2));
+    display: grid;
+    position: relative;
+    color: #111111;
+}
+
+.motivationSection .container .row {
+    text-align: left;
+    display: flex;
+    position: relative;
+    color: #111111;
+}
+
+.motivationSection .container .row .wrapper {
+    padding: 30px;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    text-align: left;
+}
+
+.motivationSection .container .row .wrapper h5 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    position: relative;
+    line-height: 1.2;
+    color: inherit;
+    text-align: left;
+}
+
+.motivationSection .container .row .wrapper p {
+    margin: 14px 1px 0;
+    word-wrap: break-word;
+    position: relative;
+    padding: 0;
+    display: block;
+    color: #111111;
+    text-align: left;
+}
+
+.motivationSection img {
+    width: 508px;
+    height: 704px;
+    margin: 1px calc(((100% - 1140px) / 2)) 0 auto;
+    overflow: hidden;
+    object-fit: cover;
+    border-style: none;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+    top: -100px;
+}
+
+.registrationSection {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: left;
+    position: relative;
+    display: block;
+}
+
+.registrationSection .container {
+    pointer-events: none;
+    min-height: 771px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #ffffff;
+    text-align: left;
+}
+
+.registrationSection .container .col {
+    min-height: 172px;
+    background-image: none;
+    width: 901px;
+    height: auto;
+    margin-top: 0;
+    text-align: left;
+    display: flex;
+}
+
+.registrationSection .container .col .row {
+    padding: 25px 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    text-align: left;
+    color: #ffffff;
+}
+
+.registrationSection .container .col .row h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    line-height: 1.1;
+    padding: 0;
+    word-wrap: break-word;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.registrationSection .container .col .row p {
+    margin: 20px 0 0;
+    position: relative;
+    word-wrap: break-word;
+    flex-shrink: 0;
+    padding: 0;
+    text-align: left;
+    color: white;
+}
+
+.registrationSection .container .col form {
+    padding: 10px;
+    margin-left: -20px;
+    width: calc(100% + 20px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+.registrationSection .container .col form .formEmail {
+    margin-bottom: 0;
+    padding-left: 20px;
+    width: 50%;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.registrationSection .container .col form div label {
+    color: #999999 !important;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.registrationSection .container .col form div input {
+    border-color: #b3b3b3;
+    color: #ffffff;
+    background-color: #333333;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    text-align: inherit;
+    height: auto;
+    overflow: visible;
+    margin: 0;
+}
+
+.registrationSection .container .col form div textarea {
+    border-color: #b3b3b3;
+    color: #ffffff;
+    background-color: #333333;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    text-align: inherit;
+    height: auto;
+    overflow: auto;
+    font: inherit;
+    margin: 0;
+}
+
+.registrationSection .container .col form .formName {
+    margin-bottom: 0;
+    padding-left: 20px;
+    width: 50%;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.registrationSection .container .col form .formDate {
+    margin-bottom: 0;
+    padding-left: 20px;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.registrationSection .container .col form .formPhone {
+    margin-bottom: 0;
+    padding-left: 20px;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.registrationSection .container .col form .formMsg {
+    margin-bottom: 0;
+    padding-left: 20px;
+    margin-top: 0;
+    width: 100%;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.registrationSection .container .col form .formSubmit {
+    padding-left: 20px;
+    margin-bottom: 0 !important;
+    width: 100%;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+.registrationSection .container .col form .formSubmit a {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    position: relative;
+    display: inline-block;
+    border-radius: 0 !important;
+    text-decoration: none;
+    outline-width: 0;
+    margin: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    align-self: flex-start;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    display: block;
+}
+
+footer .container {
+    min-height: 120px;
+    width: 1140px;
+    padding-top: 50px;
+}
+
+footer .container p {
+    width: 417px;
+    margin: 0px auto;
+    font-size: 0.875rem;
+    word-wrap: break-word;
+    position: relative;
+    padding: 0;
+    color: #ffffff;
+}
+
+@media (max-width: 992px) {
+    .container-fluid.span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
+    .trainersSection .container-fluid {
+        flex-wrap: wrap;
+    }
+    .trainersSection .container-fluid .col-lg-4 div {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-fluid #menuItem {
+        display: none;
+    }
+    .container-fluid button {
+        position: absolute;
+        right: 10px;
+        top: -25px;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .membershipSection .container h1 {
+        font-size: 1.5rem;
+    }
+    .membershipSection .container-fluid .col {}
+}
+
+@media (min-width: 576px) {
+    .container-fluid button {
+        display: none;
+    }
+}

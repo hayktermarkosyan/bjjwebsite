@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: rgb(51, 51, 51);
+}
+
+header .logoDiv img {
+    width: 100px;
+    height: auto;
+}
+
+.logoDiv {
+    float: left;
+    margin: 10px;
+}
+
+.headerName {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main {
+    background-color: rgb(51, 51, 51);
+}
+
+.col-6.col-md-6.col-lg-4 {
+    padding: 2px;
+}
