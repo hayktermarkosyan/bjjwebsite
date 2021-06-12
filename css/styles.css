@@ -146,7 +146,7 @@ p {
 
 .membershipSection {
     display: flex;
-    background-image: url(images/membership.jpg);
+    background-image: url(../images/membership.jpg);
     background-position: 50% 50%;
     color: #ffffff;
     background-size: cover;
@@ -260,49 +260,31 @@ p {
     display: block;
 }
 
-.aboutUsSection .container {
-    margin: 0 auto 0 0;
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    position: relative;
-    color: #111111;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.aboutUsSection .container .row {
+.aboutUsSection .row {
     flex-direction: row;
-    flex-wrap: wrap;
     min-height: 100%;
     max-width: 100%;
     flex: 1 1 100%;
 }
 
-.aboutUsSection .container .row .col-4 {
+.aboutUsSection .row .col1 {
     min-height: 580px;
-    width: 449.656;
-    background-color: transparent !important;
-    opacity: 1;
+    width: 33.3333333%;
     text-align: center;
-    position: relative;
     display: flex;
-    background-clip: padding-box;
-    background-origin: padding-box;
 }
 
-.aboutUsSection .container .row .col-4 .wrapper {
+.aboutUsSection .row .col1 .wrapper {
     padding: 30px;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    position: relative;
     flex: 1;
     max-width: 100%;
     text-align: center;
 }
 
-.aboutUsSection .container .row .col-4 .wrapper img {
+.aboutUsSection .row .col1 .wrapper img {
     height: 389px;
     object-position: 71.85% 50%;
     background-position: 71.85% 50%;
@@ -316,13 +298,12 @@ p {
     background-repeat: no-repeat;
 }
 
-.aboutUsSection .container .row .col-7 {
+.aboutUsSection .row .col2 {
     background-color: black;
-    position: relative;
-    width: 652.016;
+    width: 48.3333333%;
 }
 
-.aboutUsSection .container .row .col-7 .wrapper {
+.aboutUsSection .row .col2 .wrapper {
     padding: 30px;
     justify-content: center;
     display: flex;
@@ -333,7 +314,7 @@ p {
     color: #ffffff;
 }
 
-.aboutUsSection .container .row .col-7 .wrapper h6 {
+.aboutUsSection .row .col2 .wrapper h6 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -346,7 +327,7 @@ p {
     line-height: 1.2;
 }
 
-.aboutUsSection .container .row .col-7 .wrapper h2 {
+.aboutUsSection .row .col2 .wrapper h2 {
     margin-bottom: 0;
     font-size: 3rem;
     margin-top: 20px;
@@ -358,7 +339,7 @@ p {
     flex-shrink: 0;
 }
 
-.aboutUsSection .container .row .col-7 .wrapper p {
+.aboutUsSection .row .col2 .wrapper p {
     margin-bottom: 0;
     margin-top: 20px;
     word-wrap: break-word;
@@ -368,7 +349,7 @@ p {
     text-align: left;
 }
 
-.aboutUsSection .container .row .col-7 .wrapper a {
+.aboutUsSection .row .col2 .wrapper a {
     border-color: #000000 !important;
     text-transform: uppercase;
     padding-bottom: 2px;
@@ -384,7 +365,7 @@ p {
     text-decoration: none;
 }
 
-.aboutUsSection .container .row .col-1 {
+.aboutUsSection .row .col3 {
     min-height: 580px;
     background-color: transparent !important;
     opacity: 1;
@@ -395,16 +376,16 @@ p {
     max-height: 100%;
     font-size: 1rem;
     line-height: 1.6;
-    width: 247.312;
+    width: 18.3333333%;
 }
 
-.aboutUsSection .container .row .col-1 .wrapper {
+.aboutUsSection .row .col3 .wrapper {
     padding: 30px;
     flex: 1;
     max-width: 100%;
 }
 
-.aboutUsSection .container .row .col-1 .wrapper h2 {
+.aboutUsSection .row .col3 .wrapper h2 {
     font-size: 4.5rem;
     line-height: 1;
     font-weight: 700;
@@ -415,12 +396,11 @@ p {
 }
 
 .whatPeopleSaySection {
-    background-image: url(images/whatPeopleSay.jpg);
+    background-image: url(../images/whatPeopleSay.jpg);
     background-position: 0% 45.56%;
     background-size: 100%;
     color: #111111;
     text-align: center;
-    object-fit: cover;
     vertical-align: middle;
     background-repeat: no-repeat;
     position: relative;
@@ -526,6 +506,7 @@ p {
     color: #111111;
     font-size: 1rem;
     line-height: 1.6;
+    margin-bottom: -99px;
 }
 
 .motivationSection .container {
@@ -598,31 +579,22 @@ p {
     text-align: left;
     position: relative;
     display: block;
+    padding-bottom: 60px;
 }
 
-.registrationSection .container {
-    pointer-events: none;
-    min-height: 771px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    color: #ffffff;
-    text-align: left;
-}
-
-.registrationSection .container .col {
+.registrationSection .col {
     min-height: 172px;
     background-image: none;
     width: 901px;
     height: auto;
-    margin-top: 0;
+    margin-left: 104.5px;
+    margin-right: 104.5px;
     text-align: left;
     display: flex;
 }
 
-.registrationSection .container .col .row {
-    padding: 25px 30px;
+.registrationSection .col .row {
+    padding: 0 30px;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -633,7 +605,7 @@ p {
     color: #ffffff;
 }
 
-.registrationSection .container .col .row h2 {
+.registrationSection .col .row h2 {
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -646,7 +618,7 @@ p {
     text-align: left;
 }
 
-.registrationSection .container .col .row p {
+.registrationSection .col .row p {
     margin: 20px 0 0;
     position: relative;
     word-wrap: break-word;
@@ -656,7 +628,7 @@ p {
     color: white;
 }
 
-.registrationSection .container .col form {
+.registrationSection .col form {
     padding: 10px;
     margin-left: -20px;
     width: calc(100% + 20px);
@@ -668,8 +640,8 @@ p {
     text-align: left;
 }
 
-.registrationSection .container .col form .formEmail {
-    margin-bottom: 0;
+.registrationSection .col form .formEmail {
+    margin-bottom: 20px;
     padding-left: 20px;
     width: 50%;
     font-size: 1rem;
@@ -678,7 +650,7 @@ p {
     line-height: 1.6;
 }
 
-.registrationSection .container .col form div label {
+.registrationSection .col form div label {
     color: #999999 !important;
     font-weight: normal;
     font-size: 1rem;
@@ -686,7 +658,7 @@ p {
     line-height: 1.6;
 }
 
-.registrationSection .container .col form div input {
+.registrationSection .col form div input {
     border-color: #b3b3b3;
     color: #ffffff;
     background-color: #333333;
@@ -703,7 +675,7 @@ p {
     margin: 0;
 }
 
-.registrationSection .container .col form div textarea {
+.registrationSection .col form div textarea {
     border-color: #b3b3b3;
     color: #ffffff;
     background-color: #333333;
@@ -721,8 +693,8 @@ p {
     margin: 0;
 }
 
-.registrationSection .container .col form .formName {
-    margin-bottom: 0;
+.registrationSection .col form .formName {
+    margin-bottom: 20px;
     padding-left: 20px;
     width: 50%;
     font-size: 1rem;
@@ -731,20 +703,8 @@ p {
     line-height: 1.6;
 }
 
-.registrationSection .container .col form .formDate {
-    margin-bottom: 0;
-    padding-left: 20px;
-    width: 50%;
-    margin-left: 0;
-    margin-top: 0;
-    font-size: 1rem;
-    color: #ffffff;
-    text-align: left;
-    line-height: 1.6;
-}
-
-.registrationSection .container .col form .formPhone {
-    margin-bottom: 0;
+.registrationSection .col form .formDate {
+    margin-bottom: 20px;
     padding-left: 20px;
     width: 50%;
     margin-left: 0;
@@ -755,8 +715,19 @@ p {
     line-height: 1.6;
 }
 
-.registrationSection .container .col form .formMsg {
-    margin-bottom: 0;
+.registrationSection .col form .formPhone {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.registrationSection .col form .formMsg {
     padding-left: 20px;
     margin-top: 0;
     width: 100%;
@@ -766,16 +737,17 @@ p {
     line-height: 1.6;
 }
 
-.registrationSection .container .col form .formSubmit {
+.registrationSection .col form .formSubmit {
     padding-left: 20px;
-    margin-bottom: 0 !important;
+    margin-bottom: 20px;
+    padding-top: 20px;
     width: 100%;
     font-size: 1rem;
     color: #ffffff;
     text-align: left;
 }
 
-.registrationSection .container .col form .formSubmit a {
+.registrationSection .col form .formSubmit a {
     border-width: 2px;
     border-style: solid;
     border-color: #ffffff !important;
@@ -820,6 +792,116 @@ footer .container p {
     color: #ffffff;
 }
 
+@media (max-width: 1100px) {
+    .aboutUsSection .row {
+        flex-direction: column;
+    }
+    .aboutUsSection .row .col1 {
+        width: 100%;
+    }
+    .aboutUsSection .row .col2 {
+        width: 100%;
+    }
+    .aboutUsSection .row .col3 {
+        width: 100%;
+        margin-bottom: -440px;
+    }
+    .aboutUsSection .row .col3 .wrapper h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+    .whatPeopleSaySection .wrapper h4 {
+        font-size: 3rem;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        margin-left: 40px;
+    }
+    .whatPeopleSaySection .wrapper h2 {
+        font-size: 1.5rem;
+        margin: 0;
+        margin-left: 40px;
+        width: 1000px;
+    }
+    .whatPeopleSaySection .wrapper h6 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+    .whatPeopleSaySection .wrapper a {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 1.2rem;
+        margin-left: 40px;
+    }
+    .motivationSection {
+        margin-bottom: 0;
+    }
+    .motivationSection img {
+        float: none;
+        width: 100%;
+        height: auto;
+        top: 20px;
+        margin-bottom: 20px;
+    }
+    .motivationSection .container {
+        margin: 0;
+    }
+    .motivationSection .container .row {
+        margin-left: 300px;
+    }
+    .motivationSection .container .row .wrapper h5 {
+        text-align: center;
+        width: 420px;
+    }
+    .motivationSection .container .row .wrapper p {
+        width: 420px;
+        text-align: center;
+    }
+    .registrationSection {
+        width: 100%;
+    }
+    .registrationSection .col {
+        margin: 0;
+        margin-left: 30px;
+    }
+    .registrationSection .col .row h2 {
+        font-size: 2rem;
+    }
+    .registrationSection .col .row p {
+        font-size: 1rem;
+        width: 450px;
+    }
+    .registrationSection .col form .formEmail {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formName {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formDate {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formPhone {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formMsg {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .container {
+        width: auto;
+    }
+}
+
 @media (max-width: 992px) {
     .container-fluid.span {
         position: absolute;
@@ -833,6 +915,123 @@ footer .container p {
     }
     .trainersSection .container-fluid .col-lg-4 div {
         margin-bottom: 40px;
+    }
+    .membershipSection {
+        background-size: cover;
+    }
+    .membershipSection .container h1 {
+        font-size: 2.5rem;
+        margin: 55px 0 0 0;
+    }
+    .membershipSection .container-fluid p {
+        width: 450px;
+    }
+    .aboutUsSection .row {
+        flex-direction: column;
+    }
+    .aboutUsSection .row .col1 {
+        width: 100%;
+    }
+    .aboutUsSection .row .col2 {
+        width: 100%;
+    }
+    .aboutUsSection .row .col3 {
+        width: 100%;
+        margin-bottom: -440px;
+    }
+    .aboutUsSection .row .col3 .wrapper h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+    .whatPeopleSaySection .wrapper h4 {
+        font-size: 3rem;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+    .whatPeopleSaySection .wrapper h2 {
+        font-size: 1.5rem;
+        margin: 0;
+        margin-left: 40px;
+        width: 700px;
+    }
+    .whatPeopleSaySection .wrapper h6 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+    .whatPeopleSaySection .wrapper a {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 1.2rem;
+        margin-left: 40px;
+    }
+    .motivationSection {
+        margin-bottom: 0;
+    }
+    .motivationSection img {
+        float: none;
+        width: 100%;
+        height: auto;
+        top: 20px;
+        margin-bottom: 20px;
+    }
+    .motivationSection .container {
+        margin: 0;
+    }
+    .motivationSection .container .row {
+        margin-left: 200px;
+    }
+    .motivationSection .container .row .wrapper h5 {
+        text-align: center;
+        width: 420px;
+    }
+    .motivationSection .container .row .wrapper p {
+        width: 420px;
+        text-align: center;
+    }
+    .registrationSection {
+        width: 100%;
+    }
+    .registrationSection .col {
+        margin: 0;
+        margin-left: 30px;
+    }
+    .registrationSection .col .row h2 {
+        font-size: 2rem;
+    }
+    .registrationSection .col .row p {
+        font-size: 1rem;
+        width: 450px;
+    }
+    .registrationSection .col form .formEmail {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formName {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formDate {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formPhone {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .registrationSection .col form .formMsg {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .container {
+        width: auto;
     }
 }
 
@@ -848,10 +1047,124 @@ footer .container p {
     h3 {
         font-size: 2rem;
     }
+    .membershipSection {
+        background-size: cover;
+    }
     .membershipSection .container h1 {
         font-size: 1.5rem;
+        margin: 55px 0 0 0;
     }
-    .membershipSection .container-fluid .col {}
+    .membershipSection .container-fluid p {
+        width: 350px;
+    }
+    .aboutUsSection .row {
+        flex-direction: column;
+    }
+    .aboutUsSection .row .col1 {
+        width: 100%;
+    }
+    .aboutUsSection .row .col2 {
+        width: 100%;
+    }
+    .aboutUsSection .row .col3 {
+        width: 100%;
+        margin-bottom: -570px;
+    }
+    .aboutUsSection .row .col3 .wrapper h2 {
+        text-align: center;
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .whatPeopleSaySection .wrapper h4 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .whatPeopleSaySection .wrapper h2 {
+        font-size: 1rem;
+        margin: 0;
+        margin-left: 20px;
+        width: 450px;
+    }
+    .whatPeopleSaySection .wrapper h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .whatPeopleSaySection .wrapper a {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 0.75rem;
+        margin-left: 20px;
+    }
+    .motivationSection {
+        margin-bottom: 0;
+    }
+    .motivationSection img {
+        float: none;
+        width: 100%;
+        height: auto;
+        top: -130px;
+    }
+    .motivationSection .container {
+        margin: 0;
+        margin-top: -130px;
+    }
+    .motivationSection .container .row {
+        margin: 0;
+    }
+    .motivationSection .container .row .wrapper h5 {
+        text-align: center;
+        width: 420px;
+    }
+    .motivationSection .container .row .wrapper p {
+        width: 420px;
+        text-align: center;
+    }
+    .registrationSection {
+        width: 100%;
+    }
+    .registrationSection .col {
+        margin: 0;
+        margin-left: 30px;
+    }
+    .registrationSection .col .row h2 {
+        font-size: 2rem;
+    }
+    .registrationSection .col .row p {
+        font-size: 1rem;
+        width: 450px;
+    }
+    .registrationSection .col form .formEmail {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 55%;
+    }
+    .registrationSection .col form .formName {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 55%;
+    }
+    .registrationSection .col form .formDate {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 55%;
+    }
+    .registrationSection .col form .formPhone {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 55%;
+    }
+    .registrationSection .col form .formMsg {
+        width: 55%;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .container {
+        width: auto;
+    }
 }
 
 @media (min-width: 576px) {
